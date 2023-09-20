@@ -69,6 +69,7 @@ git log
 git log --oneline
 ```
 ![The underlined id is the short commit id](shortid.png)
+
 11. Remove **README.md** from the repo using **git rm**.
 ```bash
 git rm README.md
@@ -94,3 +95,32 @@ touch text.txt && echo "text.txt" > .gitignore
 ```bash
 git status
 ```
+15. Add the change to the staging area and then **commit** it with the message **"First commit"**
+```bash
+git add .gitignore && git commit -m "First commit"
+```
+16. Run **git status** and **git log**. Change the message of the last commit to **"Ignored text.txt"**
+```bash
+git status
+```
+```bash
+git log
+```
+```bash
+git commit --amend -m "Ignored text.txt"
+```
+17. Run **git log**. Create document.txt and add it to the staging area.
+```bash
+git log
+```
+```bash
+touch document.txt && git add document.txt
+```
+18. Run **git status** and **ignore** all **.txt** files.
+```bash
+git status
+```
+```bash
+echo "*.txt" > .gitignore
+```
+19. Unstage **document.txt** and stage **.gitignore** and run **git status** 
