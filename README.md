@@ -8,6 +8,9 @@ cd exercise-1
 ```
 2. Create a repository and run **git status** and **git log**.
 ```bash
+git init
+```
+```bash
 git status
 ```
 ```bash
