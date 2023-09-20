@@ -44,3 +44,24 @@ git status
 ```bash
 git rm --cached README.md
 ```
+8. Add **README.md** to the **staging** area and **try** to unstage it using **git restore** and **git checkout**.
+```bash
+git restore README.md
+```
+```bash
+git checkout
+```
+9. Make a **commit** with the message **"Initial commit"**
+```bash
+git commit -m "Initial commit"
+```
+10. Run **git status, git log** and **git log --oneline**. What is the short commit id?
+```bash
+git status
+```
+```bash
+git log
+```
+```bash
+git log --oneline
+```
