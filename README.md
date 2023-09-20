@@ -32,4 +32,15 @@ git rm README.md
 rm README.md
 ```
 6. Do **step 3** and add **README.md** to the **staging** area of the repo.
+
 See step 3.
+```bash
+git add README.md
+```
+7. Run **git status** and **unstage** the change using **git rm**.
+```bash
+git status
+```
+```bash
+git rm --cached README.md
+```
