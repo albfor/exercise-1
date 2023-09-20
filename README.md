@@ -4,8 +4,8 @@
 1. Create a directory called exercise-1 and move into it.
 run the following command.
     
-    mkdir exercise-1
-    cd exercise-1
+    make CMAKE_BUILD_TYPE=RelWithDebInfo
+    sudo make install
 
 Install from source
 -------------------
