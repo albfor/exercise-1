@@ -8,5 +8,8 @@
 ```
 2. Create a repository and run **git status** and **git log**.
 ```bash
-    git status && git log
+    git status
+```
+```bash
+    git status
 ```
