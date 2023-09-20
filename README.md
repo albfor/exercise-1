@@ -124,3 +124,24 @@ git status
 echo "*.txt" > .gitignore
 ```
 19. Unstage **document.txt** and stage **.gitignore** and run **git status** 
+```bash
+git restore --staged document.txt
+```
+```bash
+git add .gitignore
+```
+```bash
+git status
+```
+20. Commit the changes with message **"Ignored all .txt files"**
+```
+git commit -m "Ignored all .txt files"
+```
+21. Run **git log --oneline** and **checkout** the **first commit*
+```
+git log --oneline
+```
+```
+git checkout <commit id>
+```
+![checkout previous commit](checkout.png)
