@@ -46,6 +46,9 @@ git rm --cached README.md
 ```
 8. Add **README.md** to the **staging** area and **try** to unstage it using **git restore** and **git checkout**.
 ```bash
+git add README.md
+```
+```bash
 git restore README.md
 ```
 ```bash
@@ -65,3 +68,4 @@ git log
 ```bash
 git log --oneline
 ```
+![short id](shortid.png)
