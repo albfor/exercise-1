@@ -3,10 +3,10 @@
 ## Walkthrough
 1. Create a directory called exercise-1 and move into it.
 run the following command.
-`    
+```bash
     mkdir exercise-1
     cd exercise-1
-`
+```
 The build is CMake-based, but a Makefile is provided as a convenience.
 After installing the dependencies, run the following command.
 
