@@ -68,4 +68,29 @@ git log
 ```bash
 git log --oneline
 ```
-![short id](shortid.png)
+![The underlined id is the short commit id](shortid.png)
+11. Remove **README.md** from the repo using **git rm**.
+```bash
+git rm README.md
+```
+12. Run **git status** and then **unstage** the change using **git restore** or **git reset**
+```bash
+git status
+```
+```bash
+git reset
+```
+13. Run **git status** and **discard** the changes usingn **git restore** or **git checkout**.
+```bash
+git status
+```
+```bash
+git restore README.md
+```
+14. Create a text.txt file and **ignore** it. Run **git status**
+```bash
+touch text.txt && echo "text.txt" > .gitignore
+```
+```bash
+git status
+```
