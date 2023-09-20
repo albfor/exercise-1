@@ -11,9 +11,22 @@ cd exercise-1
 git status
 ```
 ```bash
-git status
+git log
 ```
 3. Create **README.md** and write **# Exercise 1** to it.
 ```bash
 echo "# Exercise 1" > README.md
 ```
+4. Run **git status**. You should have an **untracked** file. 
+```bash
+git status
+```
+5. **Try** to remove **README.md** using **git rm**. Remove the file using the bash command **rm**.
+```bash
+git rm README.md
+```
+```bash
+rm README.md
+```
+6. Do **step 3** and add **README.md** to the **staging** area of the repo.
+See step 3.
