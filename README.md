@@ -145,3 +145,10 @@ git log --oneline
 git checkout <commit id>
 ```
 ![checkout previous commit](checkout.png)
+22. Run **git log --oneline** and **checkout** the **last** commit using **git checkout master** or **git switch -**.
+```
+git log --oneline
+```
+```
+git switch -
+```
