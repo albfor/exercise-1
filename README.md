@@ -13,3 +13,7 @@
 ```bash
     git status
 ```
+3. Create **README.md** and write **# Exercise 1** to it.
+```bash
+    echo "# Exercise 1" > README.md
+```
