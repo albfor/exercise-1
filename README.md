@@ -7,6 +7,12 @@ run the following command.
     make CMAKE_BUILD_TYPE=RelWithDebInfo
     sudo make install
 
+The build is CMake-based, but a Makefile is provided as a convenience.
+After installing the dependencies, run the following command.
+
+    make CMAKE_BUILD_TYPE=RelWithDebInfo
+    sudo make install
+
 Install from source
 -------------------
 
